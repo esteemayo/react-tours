@@ -8,6 +8,7 @@ import './App.css';
 const apiUrl = 'https://course-api.com/react-tours-project';
 
 function App() {
+  const [tours, setTours] = useState([]);
   const [loading, setLoading] = useState(true);
   const [tours, setTours] = useState([]);
 
