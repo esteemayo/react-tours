@@ -8,9 +8,15 @@ const Tours = ({ tours, onDelete }) => {
         <div className='underline'></div>
       </div>
       <div>
-        {tours.map((tour) => (
-          <Tour key={tour.id} {...tour} onDelete={onDelete} />
-        ))}
+        {tours.map((tour) => {
+          return (
+            <Tour
+              key={tour.id}
+              {...tour}
+              onDelete={onDelete}
+            />
+          );
+        })}
       </div>
     </section>
   );
