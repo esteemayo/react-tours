@@ -5,7 +5,7 @@ import Tours from './components/Tours';
 
 import './App.css';
 
-const url = "https://course-api.com/react-tours-project";
+const url = 'https://course-api.com/react-tours-project';
 
 function App() {
   const [loading, setLoading] = useState(true);
