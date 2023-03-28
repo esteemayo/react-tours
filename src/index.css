@@ -195,7 +195,7 @@ main {
 }
 
 .single-tour {
-  background: var(--clr-white);
+  background-color: var(--clr-white);
   border-radius: var(--radius);
   margin: 2rem 0;
   box-shadow: var(--light-shadow);
