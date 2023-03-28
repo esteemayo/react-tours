@@ -5,7 +5,7 @@ const Tours = ({ tours, onDelete }) => {
     <section>
       <div className='title'>
         <h2>Our Tours</h2>
-        <div className="underline"></div>
+        <div className='underline'></div>
       </div>
       <div>
         {tours.map((tour) => (
