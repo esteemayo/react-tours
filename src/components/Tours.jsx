@@ -3,7 +3,7 @@ import Tour from './Tour';
 const Tours = ({ tours, onDelete }) => {
   return (
     <section>
-      <div className="title">
+      <div className='title'>
         <h2>Our Tours</h2>
         <div className="underline"></div>
       </div>
