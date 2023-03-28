@@ -18,7 +18,7 @@ function App() {
   const fetchTours = async () => {
     try {
       setLoading(true);
-      const res = await fetch(url);
+      const res = await fetch(apiUrl);
       const data = await res.json();
       setLoading(false);
       setTours(data);
