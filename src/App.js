@@ -5,7 +5,7 @@ import Loading from 'components/Loading';
 
 import './App.css';
 
-const url = 'https://course-api.com/react-tours-project';
+const apiUrl = 'https://course-api.com/react-tours-project';
 
 function App() {
   const [loading, setLoading] = useState(true);
