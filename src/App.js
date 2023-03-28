@@ -11,9 +11,7 @@ function App() {
   const [tours, setTours] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchTours();
-  }, []);
+
 
   const fetchTours = async () => {
     try {
@@ -32,6 +30,10 @@ function App() {
     const updTours = tours.filter((tour) => tour.id !== id);
     setTours(updTours);
   };
+
+  useEffect(() => {
+    fetchTours();
+  }, []);
 
   let displayTours;
 
