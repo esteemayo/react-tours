@@ -1,4 +1,4 @@
-import Tour from "./Tour";
+import Tour from './Tour';
 
 const Tours = ({ tours, onDelete }) => {
   return (
