@@ -46,7 +46,7 @@ function App() {
   if (tours.length === 0) {
     displayTours = (
       <main>
-        <div className="title">
+        <div className='title'>
           <h2>No tours left</h2>
           <button className="btn" onClick={fetchTours}>
             Refresh
