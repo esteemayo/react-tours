@@ -226,7 +226,7 @@ main {
 }
 
 .single-tour button {
-  background: transparent;
+  background-color: transparent;
   border-color: transparent;
   text-transform: capitalize;
   color: var(--clr-primary-5);
